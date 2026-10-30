@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="amberRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+    <linearGradient id="cyanRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#bg)" />
+  <!-- 年轮同心环 -->
+  <circle cx="128" cy="128" r="92" fill="none" stroke="url(#cyanRing)" stroke-width="4" stroke-dasharray="14 8" />
+  <circle cx="128" cy="128" r="70" fill="none" stroke="url(#amberRing)" stroke-width="6" stroke-dasharray="24 10" />
+  <circle cx="128" cy="128" r="48" fill="none" stroke="url(#cyanRing)" stroke-width="5" />
+  <circle cx="128" cy="128" r="26" fill="none" stroke="url(#amberRing)" stroke-width="4" stroke-dasharray="8 6" />
+  <circle cx="128" cy="128" r="10" fill="#38bdf8" />
+</svg>

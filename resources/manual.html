@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>聊天记录年轮 - 用户使用说明书</title>
+  <style>
+    @page { size: A4; margin: 20mm; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: #1e1b4b;
+      line-height: 1.6;
+      font-size: 13px;
+    }
+    h1 { font-size: 24px; color: #0f172a; border-bottom: 2px solid #4f46e5; padding-bottom: 8px; margin-bottom: 16px; }
+    h2 { font-size: 16px; color: #4338ca; margin-top: 20px; margin-bottom: 8px; border-left: 4px solid #4f46e5; padding-left: 8px; }
+    p { margin-bottom: 10px; }
+    ul { margin-bottom: 10px; padding-left: 20px; }
+    li { margin-bottom: 4px; }
+    .box { background: #e0e7ff; border: 1px solid #c7d2fe; border-radius: 6px; padding: 12px; margin-bottom: 16px; }
+    .footer { margin-top: 30px; font-size: 11px; color: #64748b; text-align: center; border-top: 1px solid #e2e8f0; padding-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>聊天记录年轮 (ChatTreeRings) v0.1.0 使用说明书</h1>
+  <p><strong>出品</strong>：Over9rowth &nbsp;|&nbsp; <strong>定位</strong>：100%本机离线个人数字年轮与互动动力学测绘仪</p>
+  
+  <div class="box">
+    <strong>【核心理念与观测边界】</strong><br>
+    聊天记录年轮是一套将冰冷聊天文本解析为充满仪式感的数字年轮观测仪器。支持标准 TXT、CSV 与 JSON 格式导入，通过客观统计 7×24 小时生物钟热力分布、主动破冰发起比、回复延迟中位数与连续聊天天数，完整呈现人际交流生长轨迹。100% 本机离线运行，绝无任何网络遥测。
+  </div>
+
+  <h2>一、主要功能特性</h2>
+  <ul>
+    <li><strong>多格式容错解析</strong>：支持微信/QQ 两行块格式、单行方括号格式、CSV 表格与通用 JSON 数组。</li>
+    <li><strong>7×24 小时生物钟热力矩阵</strong>：精细度量一周七天与 24 个小时的消息密度分布及深夜活跃比。</li>
+    <li><strong>破冰者（Icebreaker）动力学判定</strong>：当消息间隔超过 6 小时后首位发言者被记为一次主动破冰。</li>
+    <li><strong>双人互动回复延迟分析</strong>：统计交替发言且 2 小时内的回复延迟中位数与 60 秒内秒回占比。</li>
+    <li><strong>月度年轮环与词频统计</strong>：直观呈现全年各月份消息演进柱状环图与年度高频实义词。</li>
+  </ul>
+
+  <h2>二、操作指南</h2>
+  <ul>
+    <li><strong>启动即用</strong>：打开程序自动加载 2026 年度内置双人对话样本，即刻呈现年度年轮环。</li>
+    <li><strong>导入用户记录</strong>：将导出的聊天记录文本粘贴到左侧文本框，右侧年轮与上方指标毫秒级重算。</li>
+    <li><strong>导出数据与说明书</strong>：点击右上角「导出年轮报告 (JSON)」与「导出说明书 (PDF)」保存回忆。</li>
+  </ul>
+
+  <div class="footer">
+    Copyright © 2026 Over9rowth. All Rights Reserved. 纯本机离线运行 · 守护最珍贵的个人回忆
+  </div>
+</body>
+</html>
